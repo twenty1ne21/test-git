@@ -1,0 +1,14 @@
+git add - добавить в index наш контент/файл
+git status - узнать статус 
+git log - узнать логи прошлых коммитов
+git pull - взять изменения с удаленного сервера на локалку
+git commit - отправить коммит на гит
+git push - отправка контента на GitHub
+git show - показать коммит
+git ls-tree - показать дерево и какие у них есть blob
+git checkout -- file.txt откатить изменение в одном файле
+git checkout . вернуть файлы в исходное состояние до правок
+git clean -xdf (где x игнорирования файлов gitignore, d удаление неизвестных директорий, f - force) - удаление новых файлов
+git reset -- откатить файл из index area
+git reset HEAD~ - откатить файл из commit area
+git commit --amend если надо что-то дополнить в commit
