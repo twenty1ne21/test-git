@@ -9,4 +9,9 @@ aleikum salam
 yes im here
 today love
 
+<<<<<<< HEAD
 content to be saved
+=======
+yes yes yes
+im here darling
+>>>>>>> feature
