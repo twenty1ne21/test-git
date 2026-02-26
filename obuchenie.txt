@@ -12,3 +12,5 @@ git clean -xdf (где x игнорирования файлов gitignore, d у
 git reset -- откатить файл из index area
 git reset HEAD~ - откатить файл из commit area
 git commit --amend если надо что-то дополнить в commit
+git reset --soft перекинуть файл из commit to index
+git reset --hard удаления файла из commit
