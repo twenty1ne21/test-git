@@ -15,3 +15,15 @@ git commit --amend если надо что-то дополнить в commit
 git reset --soft перекинуть файл из commit to index
 git reset --hard удаления файла из commit
 git reset --mixed возвращает файл из commit to working directory
+git config -- global user.name/user.email "-" конфигурация имени и почты
+git config --global core.editor запуск файла
+git blame посмотреть кто редактировал файл
+git bisect бинарный поиск
+git log --pretty=oneline одна строчка лога
+git log --pretty=format: "%h %s" -graph лог красивый
+git config --global alias.last 'log -1 HEAD' 
+git last предыдущий коммит
+git log master..experiment лог между бранчами
+git filter-branch --tree-filter 'rm -f passwords.txt' HEAD удаление истории
+git rerere паттерны гита
+git submodule репозиторий внутри репозитория
